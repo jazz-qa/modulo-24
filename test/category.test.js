@@ -1,6 +1,6 @@
 // test.js
 const { spec, request } = require('pactum');
-const { eachLike, like } = require('pactum-matchers');
+const { like } = require('pactum-matchers');
 const { faker } = require('@faker-js/faker');
 
 request.setBaseUrl('http://lojaebac.ebaconline.art.br');
@@ -32,14 +32,14 @@ it('Add category', async () => {
         .expectJsonMatch({
             success: true,
             message: "category added",
-            data:  like({
+            data: like({
                 "_id": like("680053a6a597f45f11bfa734"),
                 name: like("Garden"),
                 photo: like("https://loremflickr.com/640/480?lock=1234"),
                 createdAt: like("2025-04-17T01:04:38.689Z"),
                 updatedAt: like("2025-04-17T01:04:38.689Z"),
                 __v: 0
-            }) 
+            })
         })
 });
 
