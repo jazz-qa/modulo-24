@@ -2,11 +2,17 @@
 const { spec, request } = require('pactum');
 const { like } = require('pactum-matchers');
 const { faker } = require('@faker-js/faker');
+const pjr = require('pactum-json-reporter');
+const { reporter } = require('pactum');
 
 request.setBaseUrl('http://lojaebac.ebaconline.art.br');
 
 let token;
 let categoryId;
+
+before(() => {
+    reporter.add(pjr);
+});
 
 beforeEach(async () => {
     token = await spec()
@@ -70,3 +76,7 @@ it('Delete category', async () => {
             message: "category deleted"
         })
 });
+
+after(async () => {
+    await reporter.end();
+  });

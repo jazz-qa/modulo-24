@@ -1,0 +1,304 @@
+{
+  "tests": [],
+  "steps": [],
+  "specs": [
+    {
+      "id": "cf279",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 478
+      },
+      "recorded": {}
+    },
+    {
+      "id": "qyqv0",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 295
+      },
+      "recorded": {}
+    },
+    {
+      "id": "iairg",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/addCategory",
+        "method": "POST",
+        "path": "/api/addCategory"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 56
+      },
+      "recorded": {}
+    },
+    {
+      "id": "o37bj",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 390
+      },
+      "recorded": {}
+    },
+    {
+      "id": "0qe9f",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 280
+      },
+      "recorded": {}
+    },
+    {
+      "id": "9q5st",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/editCategory/6801b660c35cb0b5a7a17f30",
+        "method": "PUT",
+        "path": "/api/editCategory/{id}",
+        "pathParams": {
+          "id": "6801b660c35cb0b5a7a17f30"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 35
+      },
+      "recorded": {}
+    },
+    {
+      "id": "dmpip",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 282
+      },
+      "recorded": {}
+    },
+    {
+      "id": "xwzhw",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 287
+      },
+      "recorded": {}
+    },
+    {
+      "id": "87ouy",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/deleteCategory/6801b660c35cb0b5a7a17f30",
+        "method": "DELETE",
+        "path": "/api/deleteCategory/{id}",
+        "pathParams": {
+          "id": "6801b660c35cb0b5a7a17f30"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 59
+      },
+      "recorded": {}
+    },
+    {
+      "id": "fgmyd",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 425
+      },
+      "recorded": {}
+    },
+    {
+      "id": "wsddb",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 400
+      },
+      "recorded": {}
+    },
+    {
+      "id": "3mym9",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/addProduct",
+        "method": "POST",
+        "path": "/api/addProduct",
+        "headers": {
+          "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY3OWY1MGViMGNmMGE5MTMyNThiMjg2YyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTc0NDk0MjY5MCwiZXhwIjoxNzQ1MDI5MDkwfQ.EdyfgBqw9MfvM8YZ2SwKd4-pZnakLFi8Hee_0iS4Z4c"
+        },
+        "body": {
+          "name": "Gorgeous Aluminum Cheese",
+          "price": "847.95",
+          "quantity": 45,
+          "categories": "Books",
+          "description": "New lavender Computer with ergonomic design for broken comfort",
+          "photos": "https://loremflickr.com/3426/2137?lock=2221785662079472",
+          "popular": true,
+          "visible": true,
+          "location": "Brazil",
+          "additionalDetails": "Bespoke",
+          "specialPrice": 837.95
+        }
+      },
+      "response": {
+        "statusCode": 500,
+        "headers": {
+          "server": "nginx/1.25.3",
+          "date": "Fri, 18 Apr 2025 02:18:10 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "49",
+          "connection": "keep-alive",
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"31-tQLqGAiV1Vg32wbBx2qf6gnxCT0\""
+        },
+        "body": {
+          "success": false,
+          "error": "internal server error"
+        },
+        "responseTime": 219
+      },
+      "recorded": {}
+    },
+    {
+      "id": "a16iv",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 391
+      },
+      "recorded": {}
+    },
+    {
+      "id": "4pz8d",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 418
+      },
+      "recorded": {}
+    },
+    {
+      "id": "dsw44",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/editProduct/undefined",
+        "method": "PUT",
+        "path": "/api/editProduct/{id}",
+        "pathParams": {},
+        "headers": {
+          "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY3OWY1MGViMGNmMGE5MTMyNThiMjg2YyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTc0NDk0MjY5MSwiZXhwIjoxNzQ1MDI5MDkxfQ.FQ-RyCPfJFAyqLTRRChoxAL13QVmySqQirT1pHLu1Mg"
+        },
+        "body": {
+          "quantity": 29,
+          "visible": false
+        }
+      },
+      "response": {
+        "statusCode": 502,
+        "headers": {
+          "server": "nginx/1.25.3",
+          "date": "Fri, 18 Apr 2025 02:18:11 GMT",
+          "content-type": "text/html",
+          "content-length": "157",
+          "connection": "keep-alive"
+        },
+        "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.25.3</center>\r\n</body>\r\n</html>\r\n",
+        "responseTime": 161
+      },
+      "recorded": {}
+    },
+    {
+      "id": "smdou",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 502,
+        "responseTime": 24
+      },
+      "recorded": {}
+    },
+    {
+      "id": "29d2h",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 502,
+        "responseTime": 29
+      },
+      "recorded": {}
+    },
+    {
+      "id": "og9w0",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/deleteProduct/undefined",
+        "method": "DELETE",
+        "path": "/api/deleteProduct/{id}",
+        "pathParams": {},
+        "headers": {
+          "Authorization": null
+        }
+      },
+      "response": {
+        "statusCode": 502,
+        "headers": {
+          "server": "nginx/1.25.3",
+          "date": "Fri, 18 Apr 2025 02:18:12 GMT",
+          "content-type": "text/html",
+          "content-length": "157",
+          "connection": "keep-alive"
+        },
+        "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.25.3</center>\r\n</body>\r\n</html>\r\n",
+        "responseTime": 22
+      },
+      "recorded": {}
+    }
+  ]
+}

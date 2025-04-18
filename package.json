@@ -12,6 +12,10 @@
   "devDependencies": {
     "@faker-js/faker": "^9.7.0",
     "mocha": "^11.1.0",
-    "pactum": "^3.7.6"
+    "pactum": "^3.7.6",
+    "pactum-json-reporter": "^1.0.2"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
