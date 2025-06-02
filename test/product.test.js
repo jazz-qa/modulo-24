@@ -1,6 +1,5 @@
 // test.js
 const { spec, request } = require('pactum');
-const { eachLike, like } = require('pactum-matchers');
 const { faker } = require('@faker-js/faker');
 
 request.setBaseUrl('http://lojaebac.ebaconline.art.br');
@@ -74,6 +73,9 @@ it('Delete product', async () => {
         .delete('/api/deleteProduct/{id}')
         .withPathParams('id', productId)
         .withHeaders("Authorization", token)
+        .withJson({
+            "authorization": token
+        })
         .expectStatus(200)
         .expectJsonMatch({
             success: true,
