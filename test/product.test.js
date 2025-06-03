@@ -27,13 +27,11 @@ it('Add product', async () => {
             "name": faker.commerce.productName(),
             "price": price,
             "quantity": faker.number.int({ max: 100 }),
-            "categories": faker.commerce.department(),
             "description": faker.commerce.productDescription(),
             "photos": faker.image.url(),
             "popular": true,
-            "visible": true,
+            "visible": false,
             "location": "Brazil",
-            "additionalDetails": faker.commerce.productAdjective(),
             "specialPrice": (price - 10)
         })
         .returns('data._id')
@@ -41,14 +39,6 @@ it('Add product', async () => {
         .expectJsonMatch({
             success: true,
             message: "product added"
-            // data: like({
-            //     "_id": like("680053a6a597f45f11bfa734"),
-            //     name: like("Garden"),
-            //     photo: like("https://loremflickr.com/640/480?lock=1234"),
-            //     createdAt: like("2025-04-17T01:04:38.689Z"),
-            //     updatedAt: like("2025-04-17T01:04:38.689Z"),
-            //     __v: 0
-            // })
         })
 });
 

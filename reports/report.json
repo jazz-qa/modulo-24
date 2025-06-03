@@ -3,7 +3,7 @@
   "steps": [],
   "specs": [
     {
-      "id": "2tq39",
+      "id": "1nvq4",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/public/authUser",
         "method": "POST",
@@ -11,12 +11,12 @@
       },
       "response": {
         "statusCode": 200,
-        "responseTime": 414
+        "responseTime": 410
       },
       "recorded": {}
     },
     {
-      "id": "xv7aj",
+      "id": "twoi1",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/public/authUser",
         "method": "POST",
@@ -24,16 +24,100 @@
       },
       "response": {
         "statusCode": 200,
-        "responseTime": 273
+        "responseTime": 292
       },
       "recorded": {}
     },
     {
-      "id": "aodgd",
+      "id": "8n31p",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/api/addCategory",
         "method": "POST",
         "path": "/api/addCategory"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 23
+      },
+      "recorded": {}
+    },
+    {
+      "id": "j96z4",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 374
+      },
+      "recorded": {}
+    },
+    {
+      "id": "mx9iq",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 305
+      },
+      "recorded": {}
+    },
+    {
+      "id": "wgbai",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/editCategory/683f1917693c5ac45bf163ac",
+        "method": "PUT",
+        "path": "/api/editCategory/{id}",
+        "pathParams": {
+          "id": "683f1917693c5ac45bf163ac"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 35
+      },
+      "recorded": {}
+    },
+    {
+      "id": "ev4g1",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 368
+      },
+      "recorded": {}
+    },
+    {
+      "id": "h1t6f",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 311
+      },
+      "recorded": {}
+    },
+    {
+      "id": "y8sjz",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/deleteCategory/683f1917693c5ac45bf163ac",
+        "method": "DELETE",
+        "path": "/api/deleteCategory/{id}",
+        "pathParams": {
+          "id": "683f1917693c5ac45bf163ac"
+        }
       },
       "response": {
         "statusCode": 200,
@@ -42,7 +126,7 @@
       "recorded": {}
     },
     {
-      "id": "paebc",
+      "id": "rkatq",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/public/authUser",
         "method": "POST",
@@ -50,12 +134,12 @@
       },
       "response": {
         "statusCode": 200,
-        "responseTime": 268
+        "responseTime": 380
       },
       "recorded": {}
     },
     {
-      "id": "suo5h",
+      "id": "sqol8",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/public/authUser",
         "method": "POST",
@@ -63,60 +147,57 @@
       },
       "response": {
         "statusCode": 200,
-        "responseTime": 282
+        "responseTime": 297
       },
       "recorded": {}
     },
     {
-      "id": "f5ar3",
+      "id": "dky98",
       "request": {
-        "url": "http://lojaebac.ebaconline.art.br/api/editCategory/683e26e710c9c726aeb86a20",
+        "url": "http://lojaebac.ebaconline.art.br/api/addProduct",
+        "method": "POST",
+        "path": "/api/addProduct"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 201
+      },
+      "recorded": {}
+    },
+    {
+      "id": "xqqgo",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 304
+      },
+      "recorded": {}
+    },
+    {
+      "id": "bq669",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
+        "method": "POST",
+        "path": "/public/authUser"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 307
+      },
+      "recorded": {}
+    },
+    {
+      "id": "b9le9",
+      "request": {
+        "url": "http://lojaebac.ebaconline.art.br/api/editProduct/683f1919693c5ac45bf163bf",
         "method": "PUT",
-        "path": "/api/editCategory/{id}",
+        "path": "/api/editProduct/{id}",
         "pathParams": {
-          "id": "683e26e710c9c726aeb86a20"
-        }
-      },
-      "response": {
-        "statusCode": 200,
-        "responseTime": 42
-      },
-      "recorded": {}
-    },
-    {
-      "id": "hd7rg",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
-        "method": "POST",
-        "path": "/public/authUser"
-      },
-      "response": {
-        "statusCode": 200,
-        "responseTime": 272
-      },
-      "recorded": {}
-    },
-    {
-      "id": "4vkta",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
-        "method": "POST",
-        "path": "/public/authUser"
-      },
-      "response": {
-        "statusCode": 200,
-        "responseTime": 266
-      },
-      "recorded": {}
-    },
-    {
-      "id": "bjd3k",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/api/deleteCategory/683e26e710c9c726aeb86a20",
-        "method": "DELETE",
-        "path": "/api/deleteCategory/{id}",
-        "pathParams": {
-          "id": "683e26e710c9c726aeb86a20"
+          "id": "683f1919693c5ac45bf163bf"
         }
       },
       "response": {
@@ -126,7 +207,7 @@
       "recorded": {}
     },
     {
-      "id": "oaksy",
+      "id": "l7lnh",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/public/authUser",
         "method": "POST",
@@ -134,12 +215,12 @@
       },
       "response": {
         "statusCode": 200,
-        "responseTime": 271
+        "responseTime": 376
       },
       "recorded": {}
     },
     {
-      "id": "kfmxz",
+      "id": "w6iq9",
       "request": {
         "url": "http://lojaebac.ebaconline.art.br/public/authUser",
         "method": "POST",
@@ -147,159 +228,23 @@
       },
       "response": {
         "statusCode": 200,
-        "responseTime": 274
+        "responseTime": 307
       },
       "recorded": {}
     },
     {
-      "id": "rreh9",
+      "id": "865m8",
       "request": {
-        "url": "http://lojaebac.ebaconline.art.br/api/addProduct",
-        "method": "POST",
-        "path": "/api/addProduct",
-        "headers": {
-          "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY3OWY1MGViMGNmMGE5MTMyNThiMjg2YyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTc0ODkwMzY1NywiZXhwIjoxNzQ4OTkwMDU3fQ.zVGEGgmS263nNgO0Hb_TFhL0kPBBQZhzJi5EPHwLk6I"
-        },
-        "body": {
-          "name": "Tasty Metal Car",
-          "price": "300.79",
-          "quantity": 6,
-          "categories": "Music",
-          "description": "Featuring Seaborgium-enhanced technology, our Towels offers unparalleled impractical performance",
-          "photos": "https://loremflickr.com/3900/2536?lock=2104253143010317",
-          "popular": true,
-          "visible": true,
-          "location": "Brazil",
-          "additionalDetails": "Practical",
-          "specialPrice": 290.79
-        }
-      },
-      "response": {
-        "statusCode": 500,
-        "headers": {
-          "server": "nginx/1.25.3",
-          "date": "Mon, 02 Jun 2025 22:34:17 GMT",
-          "content-type": "application/json; charset=utf-8",
-          "content-length": "49",
-          "connection": "keep-alive",
-          "x-powered-by": "Express",
-          "access-control-allow-origin": "*",
-          "etag": "W/\"31-tQLqGAiV1Vg32wbBx2qf6gnxCT0\""
-        },
-        "body": {
-          "success": false,
-          "error": "internal server error"
-        },
-        "responseTime": 172
-      },
-      "recorded": {}
-    },
-    {
-      "id": "bl1fo",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
-        "method": "POST",
-        "path": "/public/authUser"
-      },
-      "response": {
-        "statusCode": 200,
-        "responseTime": 279
-      },
-      "recorded": {}
-    },
-    {
-      "id": "b7qrx",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
-        "method": "POST",
-        "path": "/public/authUser"
-      },
-      "response": {
-        "statusCode": 200,
-        "responseTime": 290
-      },
-      "recorded": {}
-    },
-    {
-      "id": "nn8hf",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/api/editProduct/undefined",
-        "method": "PUT",
-        "path": "/api/editProduct/{id}",
-        "pathParams": {},
-        "headers": {
-          "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY3OWY1MGViMGNmMGE5MTMyNThiMjg2YyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTc0ODkwMzY1OCwiZXhwIjoxNzQ4OTkwMDU4fQ.2tDzR5pQWXxvI6BSniXgQ976RuKTi19TYtzkOOAlx-Q"
-        },
-        "body": {
-          "quantity": 49,
-          "visible": false
-        }
-      },
-      "response": {
-        "statusCode": 502,
-        "headers": {
-          "server": "nginx/1.25.3",
-          "date": "Mon, 02 Jun 2025 22:34:18 GMT",
-          "content-type": "text/html",
-          "content-length": "157",
-          "connection": "keep-alive"
-        },
-        "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.25.3</center>\r\n</body>\r\n</html>\r\n",
-        "responseTime": 114
-      },
-      "recorded": {}
-    },
-    {
-      "id": "17l2p",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
-        "method": "POST",
-        "path": "/public/authUser"
-      },
-      "response": {
-        "statusCode": 502,
-        "responseTime": 31
-      },
-      "recorded": {}
-    },
-    {
-      "id": "wsfj4",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/public/authUser",
-        "method": "POST",
-        "path": "/public/authUser"
-      },
-      "response": {
-        "statusCode": 502,
-        "responseTime": 78
-      },
-      "recorded": {}
-    },
-    {
-      "id": "wi1mh",
-      "request": {
-        "url": "http://lojaebac.ebaconline.art.br/api/deleteProduct/undefined",
+        "url": "http://lojaebac.ebaconline.art.br/api/deleteProduct/683f1919693c5ac45bf163bf",
         "method": "DELETE",
         "path": "/api/deleteProduct/{id}",
-        "pathParams": {},
-        "headers": {
-          "Authorization": null
-        },
-        "body": {
-          "authorization": null
+        "pathParams": {
+          "id": "683f1919693c5ac45bf163bf"
         }
       },
       "response": {
-        "statusCode": 502,
-        "headers": {
-          "server": "nginx/1.25.3",
-          "date": "Mon, 02 Jun 2025 22:34:18 GMT",
-          "content-type": "text/html",
-          "content-length": "157",
-          "connection": "keep-alive"
-        },
-        "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.25.3</center>\r\n</body>\r\n</html>\r\n",
-        "responseTime": 22
+        "statusCode": 200,
+        "responseTime": 34
       },
       "recorded": {}
     }
